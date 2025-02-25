@@ -18,7 +18,7 @@
        
   - name: Configurar VirtualHost
     ansible.builtin.template:
-      src: ../templates/vhost.conf.j2
+      src: ../files/vhost.conf.j2
       dest: /etc/httpd/conf.d/ejemplo.conf
       owner: apache
       group: apache
